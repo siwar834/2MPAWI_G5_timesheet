@@ -10,17 +10,18 @@
 	</parent>
 	<groupId>tn.esprit.spring.services</groupId>
 	<artifactId>timesheet-devops</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>0.0.3-SNAPSHOT</version>
 
+	<packaging>jar</packaging>
 	<name>timesheet-devops</name>
 	<description>tp-spring-jsf-crud</description>
 	<properties>
 		<java.version>11</java.version>
 		<maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
 		<sonar.login>admin</sonar.login>
-		<sonar.password>admin 123</sonar.password>
+		<sonar.password>admin123</sonar.password>
 		<nexus.login>admin</nexus.login>
-		<nexus.password>admin 123</nexus.password>
+		<nexus.password>admin123</nexus.password>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven.compiler.source>1.8</maven.compiler.source>
 	</properties>
